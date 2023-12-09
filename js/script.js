@@ -9,18 +9,18 @@ const elts = {
 
 // The strings to morph between. You can change these to anything you want!
 const texts = [
-	"Why",
-	"is",
-	"this",
-	"so",
-	"satisfying",
-	"to",
-	"watch?"
+	"何かを変えることができる人間がいるとすれば",
+	"その人は きっと大事なものを捨てることができる人だ",
+	"化け物をしのぐ必要を迫られたのなら",
+	"人間性をも捨て去れることができる出来る人のことだ",
+	"何も捨てることができないひとには",
+	"何も変えることはできないだろう"
+
 ];
 
 // Controls the speed of morphing.
 const morphTime = 1;
-const cooldownTime = 0.25;
+const cooldownTime = 0.65;
 
 let textIndex = texts.length - 1;
 let time = new Date();
